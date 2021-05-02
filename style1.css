@@ -1,0 +1,312 @@
+body{
+    background:  #c0c0c0
+}
+#main_container{
+  display: grid;
+  grid-template-columns:245px 900px 510px 1fr;
+  grid-template-rows:50px 250px 530px 300px;
+  gap:10px 10px;
+
+}
+#navbar_container{
+  grid-column: 1/5;
+  display: flex;
+  background-color: #0099cc ;
+  gap:0 10px;
+  padding: 2px;
+
+}
+.navbar_logo{
+  color:gold;
+  width: 240px;
+  background-color:white;
+}
+.navbar_menu{
+  display: flex;
+  gap:0px 10px;
+  padding-left: 0px;
+  margin: 0px;
+
+}
+.navbar_menu li{
+  list-style:none;
+  width:90px;
+  line-height: 45px;
+  text-align: center;
+
+
+}
+.navbar_menu li a{
+  text-decoration:none;
+  color: black;
+  display: block;
+  width: 80px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.navbar_blank{
+  position: relative;
+  text-align: right;
+  width: 550px;
+  padding: 0px;
+  vertical-align: middle;
+}
+.navbar_blank input{
+  position: absolute;
+  left:85%;
+  top:20%;
+  width:71px;
+  height:30px;
+  border-radius: 3px;
+}
+#index_container{
+  display: none;
+    background-color:#0099cc ;
+      grid-row: 2/4;
+
+}
+
+#index{
+
+  list-style: none;
+  padding: 5px;
+}
+#index .index_title{
+  display: block;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #90d5eb;
+  color: white;
+  cursor: pointer;
+
+}
+#index_list{
+    display: none;
+    list-style:none;
+    padding: 10px;
+
+}
+#index_list li{
+    padding-bottom: 7px;
+    color: white;
+}
+
+#index_list li a{
+  text-decoration: none;
+  color:white;
+}
+#body_container{
+
+  grid-row: 2/4;
+  position: relative;
+
+
+}
+#body_container #body_content{
+ display: none;
+ position: absolute;
+ background: white;
+ width:820px;
+ height: 100%;
+ top:3%;
+ left:1%;
+}
+
+
+.body_index{
+  display: flex;
+  list-style: none;
+
+  margin:0px;
+  line-height: 40px;
+    padding: 0px;
+}
+.body_index li{
+ width: 160px;
+ text-align: center;
+}
+
+.body_index li a{
+text-decoration: none;
+font-size:12px;
+font-weight: bold;
+color:  #c0c0c0;
+}
+.body_input{
+  width:780px;
+  height:22px;
+}
+.body_input input{
+  display: block;
+
+    position: absolute;
+    width:45px;
+      left:94.2%;
+    border-radius: 4px;
+    }
+#b_table{
+  display: none;
+  padding:5px;
+  height: 630px;
+}
+#b_table tr{
+  text-align: center;
+  padding: 0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#b_table td{
+  border: 1px solid black;
+
+}
+
+#b_table tr div{
+  text-align: left;
+  background-color: #c0c0c0;
+  height: 70%;
+  font-size: 12px;
+  font-weight: normal;
+
+}
+
+#b_table tr .name{
+  width: 220px;
+}
+#b_table tr input[type=text]{
+  border:0px;
+  margin-top:5px;
+  background:#c0c0c0;
+}
+#b_table tr input[type=button]{
+  border-radius: 3px;
+  width: 5%;
+}
+#b_table tr .location{
+  border: 0px solid white;
+  background-color: white;
+  position: relative;
+}
+#b_table tr .location_text{
+  width: 300px;
+  height: 95%;
+  text-align: center;
+}
+#b_table tr .location input[type=text]{
+  width: 70%;
+
+}
+#b_table tr .location input[type="button"]{
+
+  position: absolute;
+  width: 11%;
+  left:55%;
+
+}
+#b_table tr .perc{
+  width: 50%;
+  text-align: center;
+}
+#b_table tr .perc input[type=text]{
+  width: 50%;
+}
+#b_table tr .area {
+  width: 50%;
+  text-align: center;
+}
+#b_table tr .area input[type=text]{
+  width: 50%;
+}
+#b_table tr .business{
+  text-align: center;
+}
+#b_table tr .day1{
+  width: 60%;
+  text-align: center;
+}
+
+#b_table tr .day2 {
+  width: 60%;
+  text-align: center;
+}
+
+#b_table tr .day1 input[type=text]{
+  width: 70%;
+}
+
+#b_table tr .day2 input[type=text]{
+  width: 70%;
+}
+#b_table tr .b_struct{
+  background-color: white;
+  border: 1px solid white;
+
+}
+#b_table tr .type1 input[type=text]{
+  width:50%;
+}
+#b_table tr .type1{
+  width:60%;
+    text-align: center;
+}
+#b_table tr .type2{
+  width:30%;
+    text-align: center;
+}
+#b_table tr .type2 input[type=text]{
+  width:40%;
+}
+#b_table tr .floor_wrapper{
+  background-color: white;
+  border: white solid 1px;
+  text-align: left;
+  display: flex;
+  gap:8px;
+}
+#b_table tr .floor1{
+
+  width: 15%;
+  height:100%;
+}
+#b_table tr .floor1 input[type=text]{
+  width:50%;
+}
+#b_table tr .floor2{
+  height:100%;
+  width:350px;
+}
+#b_table tr .floor2 input[type=text]{
+  width: 10%;
+}
+
+#b_table tr .p_area_wrapper{
+  background-color: white;
+  border: white solid 1px;
+  text-align: left;
+  display: flex;
+    gap:8px;
+}
+#b_table tr .p_area{
+
+  width: 220px;
+  height:100%;
+}
+#b_table tr .p_area input[type=text]{
+  width:30px;
+}
+#b_table tr .type3{
+  width: 100px;
+  text-align: center;
+}
+#b_table tr .type3 input[type=text]{
+   width: 30px;
+}
+
+
+#side_container{
+  display: none;
+  border:1px solid red;
+}
